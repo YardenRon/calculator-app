@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.scss';
 import Wrapper from './Wrapper';
+import Screen from './Screen';
 
 function App() {
   return (
     <div>
       <Wrapper>
-        <span style={{ color: 'white' }}> Yarden's application </span>
+        <Screen value="Yarden's Application" />
       </Wrapper>
     </div>
   );
