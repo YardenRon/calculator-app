@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.scss';
+import Wrapper from './Wrapper';
 
 function App() {
   return (
     <div>
-      <span> Yarden's application </span>
+      <Wrapper>
+        <span style={{ color: 'white' }}> Yarden's application </span>
+      </Wrapper>
     </div>
   );
 }
